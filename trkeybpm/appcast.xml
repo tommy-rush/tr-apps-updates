@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>TR Key/BPM</title>
+    <link>https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml</link>
+    <description>Automatic updates for TR Key/BPM — the menu-bar key + BPM detector.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <description><![CDATA[
+        <ul>
+          <li>First Sparkle-enabled release of TR Key/BPM.</li>
+          <li>On-device key + BPM detection from any audio file.</li>
+          <li>Notarized Developer ID build (Capiscana, Inc.).</li>
+        </ul>
+      ]]></description>
+      <pubDate>Sun, 21 Jun 2026 20:16:00 -0700</pubDate>
+      <sparkle:version>1.0</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-1.0.zip"
+        sparkle:edSignature="jz4tALGcd+xDF7hRkkrTcJ4gs4EHllm+sK9c9k7HNPfFzHXBICV25zz6mEiR7oJWbTWMmId967K9SgIAzbzKCQ=="
+        length="1917555"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
