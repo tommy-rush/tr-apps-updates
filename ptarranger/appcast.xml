@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.5</title>
+      <description><![CDATA[<ul><li>Live Pro Tools auto-sync — the arrangement tracks your session in real time.</li><li>Removed the separate "Build Sections" button — sections build automatically.</li><li>Fixed Duplicate-3 (third duplicate now lands correctly).</li><li>Marker color is kept when sections move or duplicate.</li><li>Resizable window.</li><li>In-window updates (no separate update window).</li><li>Native window-tabbing support.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 03:20:00 -0700</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.7.5.zip"
+        sparkle:edSignature="sdse4EQVgmDKGSsMEv+kMNNOAueyh/HzDUg+OQ+Wbho6HDY9xahFC6A0FpjzIwgBP9oClpJvU/lsEPvaXiW9AA=="
+        length="15906471"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.4</title>
       <description><![CDATA[<ul><li>New: "Check for Updates…" in the app menu (Sparkle auto-update, EdDSA-verified, opt-in — never installs silently).</li><li>The red neon "TR" maker's mark now sits on the app icon.</li><li>All v0.7.3 arranger features intact: tempo map, meter map, section build, and marker moves.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Sun, 22 Jun 2026 00:29:00 -0700</pubDate>
