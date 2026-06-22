@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.1</title>
+      <description><![CDATA[<ul><li>Ableton-style quantized section launch — sections fire on the bar, with loop + playback hardening.</li><li>Plugged a temp-dir and bounced-WAV leak in Detect Key/BPM.</li><li>Cleaner thin-dock header — no more cramped wordmark when docked to the Pro Tools sidebar.</li><li>Auto-connect and Key-chain from 0.7.7 intact (no Connect button; key written into Pro Tools, bgate-matched to Vault).</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 14:15:00 -0700</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.1.zip"
+        sparkle:edSignature="hHv4mcqW/JHydAOfzR/W8TvePz9RDw7dxRV9Zu2B/9+/3hjk9ul/iuqWLDXhcYAmxr40Y587gmZ7xjwTdX1oBA=="
+        length="16181133"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.7</title>
       <description><![CDATA[<ul><li>Auto-connect — no Connect button. Pro Tools is detected automatically.</li><li>Key-chain — bgate key detection matching Vault, drops a Key marker at bar 1.</li><li>Marker and Auto-Key groundwork.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 06:02:00 -0700</pubDate>

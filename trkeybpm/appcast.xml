@@ -6,6 +6,19 @@
     <description>Automatic updates for TR Key/BPM — the menu-bar key + BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 2.3.0</title>
+      <description><![CDATA[<ul><li>On-device key detection now matches Session Vault exactly (Essentia-grade harmonic-profile key engine).</li><li>Live system-audio key + BPM in the menu bar — reads your Mac's output mix via the CoreAudio process-tap (no Screen Recording permission).</li><li>Tighter BPM octave handling closes the half/double-time trap.</li><li>Menu-bar title in Tommy's exact format (e.g. "Ebm 128").</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 11:30:00 -0700</pubDate>
+      <sparkle:version>2.3.0</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-2.3.0.zip"
+        sparkle:edSignature="Hy6o72W9MDbOyY4ub0UfW2WR09fun1R7rJs2QWEefNJBQATsmpIZpeMzPdt+7hAKSy3hOTI8/SzOU/nv5LGADg=="
+        length="1967912"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0</title>
       <description><![CDATA[<ul><li>First Sparkle-enabled release of TR Key/BPM.</li><li>On-device key + BPM detection from any audio file.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Sun, 21 Jun 2026 21:23:00 -0700</pubDate>
