@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.2</title>
+      <description><![CDATA[<ul><li>The Arranger now opens as a focused, narrow window by default — no more reaching for the edge to resize it down.</li><li>Carries forward Ableton-style quantized section launch, auto-connect, and Key-chain.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 15:35:00 -0700</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.2.zip"
+        sparkle:edSignature="cOyhh2gQz7oOQT3TCmGrHoADbJiAoiL0LONFDKkYoLD69IOoMspsXTXRDkYqLB+ugcMdhgwkYFD0q75RuGGzBg=="
+        length="16183241"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.1</title>
       <description><![CDATA[<ul><li>Ableton-style quantized section launch — sections fire on the bar, with loop + playback hardening.</li><li>Plugged a temp-dir and bounced-WAV leak in Detect Key/BPM.</li><li>Cleaner thin-dock header — no more cramped wordmark when docked to the Pro Tools sidebar.</li><li>Auto-connect and Key-chain from 0.7.7 intact (no Connect button; key written into Pro Tools, bgate-matched to Vault).</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 14:15:00 -0700</pubDate>
