@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.7</title>
+      <description><![CDATA[<ul><li>Auto-connect — no Connect button. Pro Tools is detected automatically.</li><li>Key-chain — bgate key detection matching Vault, drops a Key marker at bar 1.</li><li>Marker and Auto-Key groundwork.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 06:02:00 -0700</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.7.7.zip"
+        sparkle:edSignature="93S75rWHNZLZrcfRdRkv/Svm32l5hedIsovHgY6WeWzegXilQKVLbBS/YLyzqQ/wWY3qSzlRjkGhIadbH9UaCQ=="
+        length="16069308"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.6</title>
       <description><![CDATA[<ul><li>Marker colors now match Pro Tools exactly.</li><li>Fixed Detect-Key bounce so key detection lands reliably.</li><li>Hidden tracks are restored and respected.</li><li>New "Keep in Front of Pro Tools" toggle keeps the Arranger window pinned over your session.</li><li>New "Dock to Pro Tools Sidebar" — snap the Arranger to the side of your Pro Tools window.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 04:24:00 -0700</pubDate>
