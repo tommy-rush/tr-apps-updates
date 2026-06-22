@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.6</title>
+      <description><![CDATA[<ul><li>Marker colors now match Pro Tools exactly.</li><li>Fixed Detect-Key bounce so key detection lands reliably.</li><li>Hidden tracks are restored and respected.</li><li>New "Keep in Front of Pro Tools" toggle keeps the Arranger window pinned over your session.</li><li>New "Dock to Pro Tools Sidebar" — snap the Arranger to the side of your Pro Tools window.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 04:24:00 -0700</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.7.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.7.6.zip"
+        sparkle:edSignature="uFyUFANJZwqPw/2dIxpm3vLSD2WojalmdyPzSiN/D3D1bknUlLXFBTT5aPb4FLrovBiDsy9gDgSwt/wQrrGSDw=="
+        length="15998158"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.5</title>
       <description><![CDATA[<ul><li>Live Pro Tools auto-sync — the arrangement tracks your session in real time.</li><li>Removed the separate "Build Sections" button — sections build automatically.</li><li>Fixed Duplicate-3 (third duplicate now lands correctly).</li><li>Marker color is kept when sections move or duplicate.</li><li>Resizable window.</li><li>In-window updates (no separate update window).</li><li>Native window-tabbing support.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 03:20:00 -0700</pubDate>
