@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.3</title>
+      <description><![CDATA[<ul><li>Pro Tools Arranger now checks for updates automatically — on launch and hourly — so you always know when there's a new version. It prompts you; it never installs anything on its own.</li><li>Keeps the focused narrow-window default from 0.8.2 and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 17:14:00 -0700</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.3.zip"
+        sparkle:edSignature="2MmeB8KpXlyqcNEu9U+2kBhVD5prZdNvYihKLz5OxEp/1c1TwBvn6fdPhcSpQ2f9U22gw/b1/kukNGYD7x+sDQ=="
+        length="16183278"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.2</title>
       <description><![CDATA[<ul><li>The Arranger now opens as a focused, narrow window by default — no more reaching for the edge to resize it down.</li><li>Carries forward Ableton-style quantized section launch, auto-connect, and Key-chain.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 15:35:00 -0700</pubDate>
