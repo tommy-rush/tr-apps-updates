@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.5</title>
+      <description><![CDATA[<ul><li>Fixed the narrow Pro Tools-sidebar dock width: every toolbar and transport control now stays reachable — anything that doesn't fit tucks into a "•••" menu, so nothing is ever cut off the edge at any width.</li><li>Fixed reconnecting after Disconnect — the connection now tears down cleanly and reconnects reliably, with a visible Reconnect button right on the disconnected screen.</li><li>Carries forward always-on auto-update checks and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 23:27:02 -0700</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.5.zip"
+        sparkle:edSignature="8dfK9af0qn6mwPUl/5j0d2F6lf4j+km95rJjcaAKRA4StYMBDv/0jOVsgGfa7HkYI433Y6jeH6uMsl1VosyFBA=="
+        length="16051665"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.4</title>
       <description><![CDATA[<ul><li>Everything fits at dock width — the Arranger stays readable when snapped to the narrow Pro Tools sidebar.</li><li>Section markers now show their bar locations, and the drag indicator is brighter and easier to track.</li><li>Carries forward always-on auto-update checks and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 22:30:00 -0700</pubDate>
