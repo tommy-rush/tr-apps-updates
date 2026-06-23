@@ -6,6 +6,19 @@
     <description>Automatic updates for TR Key/BPM — the menu-bar key + BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 2.3.2</title>
+      <description><![CDATA[<ul><li>Sharper key detection: TR Key/BPM now matches Session Vault's key exactly, including on tracks where the two used to disagree. If you've ever seen a key here that didn't match what Vault (or Mixed In Key) said, this is the fix.</li><li>Same on-device, real-time key + BPM engine — nothing leaves your Mac.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 22:48:32 -0700</pubDate>
+      <sparkle:version>2.3.2</sparkle:version>
+      <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-2.3.2.zip"
+        sparkle:edSignature="RxO0Vd/op9pMsgG+roBTJNKjjKH4CN5PoL2OMQ1o3jZzOdBxyispvkcXNJ+5C02c/0v+9/y1QEu5tlZNe9h/CQ=="
+        length="1968152"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.3.1</title>
       <description><![CDATA[<ul><li>TR Key/BPM now checks for updates automatically — on launch and hourly — so you always know when there's a new version. It prompts you; it never installs anything on its own.</li><li>Same on-device key + BPM accuracy (Essentia-grade harmonic-profile engine, matched to Session Vault).</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 17:12:00 -0700</pubDate>
