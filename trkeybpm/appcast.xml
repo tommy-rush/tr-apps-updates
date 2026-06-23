@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>TR Key/BPM</title>
+    <title>TR Key</title>
     <link>https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml</link>
-    <description>Automatic updates for TR Key/BPM — the menu-bar key + BPM detector.</description>
+    <description>Automatic updates for TR Key — the menu-bar key + BPM detector.</description>
     <language>en</language>
+    <item>
+      <title>Version 2.3.3</title>
+      <description><![CDATA[<ul><li>Rebuilt key detection from the ground up. The whole analysis chain — not just one piece — now follows the same approach Session Vault uses, so the key you see here lines up with Vault (and Mixed In Key) on real tracks far more often. Earlier versions could be off by a whole step or a fifth; that's fixed.</li><li>Much faster — a key now locks in a second or two instead of dragging.</li><li>Renamed to <b>TR Key</b>.</li><li>New <b>Reset Detection</b> menu item — clears the current reading so it re-locks on whatever's playing now (handy when you switch tracks).</li><li>Light enough to leave running all day (near-zero CPU when nothing's playing). Still 100% on-device — nothing leaves your Mac.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Tue, 23 Jun 2026 02:56:19 -0700</pubDate>
+      <sparkle:version>2.3.3</sparkle:version>
+      <sparkle:shortVersionString>2.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-2.3.3.zip"
+        sparkle:edSignature="FN7NULeujyx1700AB0zDr7ZLJfTEMfnXfueAYmncA5bqoS+4pGxXFiiub4o3fWaNGRaQ+pFky3Q+1FS+pSmKDQ=="
+        length="1967832"
+        type="application/octet-stream" />
+    </item>
     <item>
       <title>Version 2.3.2</title>
       <description><![CDATA[<ul><li>Sharper key detection: TR Key/BPM now matches Session Vault's key exactly, including on tracks where the two used to disagree. If you've ever seen a key here that didn't match what Vault (or Mixed In Key) said, this is the fix.</li><li>Same on-device, real-time key + BPM engine — nothing leaves your Mac.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
