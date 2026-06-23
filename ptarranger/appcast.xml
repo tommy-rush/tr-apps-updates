@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.8</title>
+      <description><![CDATA[<ul><li>New: Create + name your own sections — pick a name (Verse A, Post-chorus, anything), a color, and a bar length, and it snaps onto the end of your arrangement.</li><li>New: A central Play / Stop button on the transport bar — start and stop Pro Tools playback right from the Arranger.</li><li>New: Use Session Tempo — read your session\x27s own tempo instantly (no bounce) so bar snapping, launch, and insert-bars are ready in a click. The by-ear key + tempo detection is still there in the menu.</li><li>New: Clear (keep the space) — a non-ripple delete that wipes a section\x27s content but leaves the gap, alongside the usual ripple-delete that closes it.</li><li>New: Apply to hidden tracks too — an opt-in switch; off by default, so hidden tracks stay hidden and untouched unless you ask.</li><li>Fixed: Snapshots now save reliably the very first time, so the Snapshots list always shows your auto-backups.</li><li>Fixed: Duplicating a section now creates exactly one correctly-named copy — no more phantom extra sections.</li><li>Fixed: Section moves are now near-instant — the row jumps to its new spot the moment you drop it.</li><li>Fixed: Menus no longer flicker while Pro Tools is playing.</li><li>Fixed: If you press Cmd-Z directly in Pro Tools, the Arranger stays in sync instead of getting confused.</li><li>Clearer Commit (Flatten) button so it\x27s obvious it bakes your rearrangement into the timeline.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Tue, 23 Jun 2026 16:08:39 -0700</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.8.zip"
+        sparkle:edSignature="Nxk8XbUKADpPN1pozbM+qYLzLq1gokLI8eynWoOXdww/6SveJUipLjwHDmNcGT66oLiBxJ+OdxQXHqwb9YvvCQ=="
+        length="16487959"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.7</title>
       <description><![CDATA[<ul><li>Hidden tracks now STAY hidden. Previously, moving, duplicating, deleting, or repeating a section could reveal tracks you had hidden in Pro Tools — the Arranger now snapshots your show/hide layout before every section edit and restores it exactly afterward, so your view never changes.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Tue, 23 Jun 2026 04:01:28 -0700</pubDate>
