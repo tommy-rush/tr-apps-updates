@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.4</title>
+      <description><![CDATA[<ul><li>Everything fits at dock width — the Arranger stays readable when snapped to the narrow Pro Tools sidebar.</li><li>Section markers now show their bar locations, and the drag indicator is brighter and easier to track.</li><li>Carries forward always-on auto-update checks and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 22:30:00 -0700</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.4.zip"
+        sparkle:edSignature="jBPNk1ilVesymq2WmFwJuRd9aflm/JVdLe6UFtdcFz67JGco7cXbN0bRgOS9Pr1muhpsm+pU/K15UoYhs8viAA=="
+        length="16004781"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.3</title>
       <description><![CDATA[<ul><li>Pro Tools Arranger now checks for updates automatically — on launch and hourly — so you always know when there's a new version. It prompts you; it never installs anything on its own.</li><li>Keeps the focused narrow-window default from 0.8.2 and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 17:14:00 -0700</pubDate>
