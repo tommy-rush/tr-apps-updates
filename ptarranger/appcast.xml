@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.7</title>
+      <description><![CDATA[<ul><li>Hidden tracks now STAY hidden. Previously, moving, duplicating, deleting, or repeating a section could reveal tracks you had hidden in Pro Tools — the Arranger now snapshots your show/hide layout before every section edit and restores it exactly afterward, so your view never changes.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Tue, 23 Jun 2026 04:01:28 -0700</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.7.zip"
+        sparkle:edSignature="sEd5a9a3VwYzxde+HuC7KQTGZRGyYG+cbv3rUpnV4bn+S1WOdWOxaejOCBmhi1vAGdq2UL3FlDgDFPLtziCvBQ=="
+        length="16352198"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.6</title>
       <description><![CDATA[<ul><li>Fixed a flicker when Pro Tools is open but no session is loaded — the Arranger now shows one calm "open a session to start" screen instead of flashing error messages, and the moment you open a session your sections load automatically.</li><li>New: a Snapshots button on the transport bar — browse the auto-backup copies the Arranger saves before risky edits, and open one in Pro Tools or reveal it in Finder with a click. No more digging through folders.</li><li>Renamed the "Snapshot" switch to "Auto-backup" so it's clear it saves a recoverable session copy before destructive edits.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Tue, 23 Jun 2026 01:04:28 -0700</pubDate>
