@@ -6,6 +6,19 @@
     <description>Automatic updates for TR Key/BPM — the menu-bar key + BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 2.3.1</title>
+      <description><![CDATA[<ul><li>TR Key/BPM now checks for updates automatically — on launch and hourly — so you always know when there's a new version. It prompts you; it never installs anything on its own.</li><li>Same on-device key + BPM accuracy (Essentia-grade harmonic-profile engine, matched to Session Vault).</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Mon, 22 Jun 2026 17:12:00 -0700</pubDate>
+      <sparkle:version>2.3.1</sparkle:version>
+      <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-2.3.1.zip"
+        sparkle:edSignature="jjNUmwFuwQstETtcb3utUjH5gxwGfgLy/wJxhcE/1deyA6Z4FfkbTeQfNxtLM5lWbXdofmvHnkMr7C69On7KAA=="
+        length="1968136"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.3.0</title>
       <description><![CDATA[<ul><li>On-device key detection now matches Session Vault exactly (Essentia-grade harmonic-profile key engine).</li><li>Live system-audio key + BPM in the menu bar — reads your Mac's output mix via the CoreAudio process-tap (no Screen Recording permission).</li><li>Tighter BPM octave handling closes the half/double-time trap.</li><li>Menu-bar title in Tommy's exact format (e.g. "Ebm 128").</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 11:30:00 -0700</pubDate>
