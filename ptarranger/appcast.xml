@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.6</title>
+      <description><![CDATA[<ul><li>Fixed a flicker when Pro Tools is open but no session is loaded — the Arranger now shows one calm "open a session to start" screen instead of flashing error messages, and the moment you open a session your sections load automatically.</li><li>New: a Snapshots button on the transport bar — browse the auto-backup copies the Arranger saves before risky edits, and open one in Pro Tools or reveal it in Finder with a click. No more digging through folders.</li><li>Renamed the "Snapshot" switch to "Auto-backup" so it's clear it saves a recoverable session copy before destructive edits.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Tue, 23 Jun 2026 01:04:28 -0700</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.6.zip"
+        sparkle:edSignature="0SfnPvmqR2b35UZyEFgUxYinBgjsjUhi2eo1Q6dK1ksdrL/6xdKMzwvM1peKfwocU/k2HIC+g3QCyiUej42bCQ=="
+        length="16114633"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.5</title>
       <description><![CDATA[<ul><li>Fixed the narrow Pro Tools-sidebar dock width: every toolbar and transport control now stays reachable — anything that doesn't fit tucks into a "•••" menu, so nothing is ever cut off the edge at any width.</li><li>Fixed reconnecting after Disconnect — the connection now tears down cleanly and reconnects reliably, with a visible Reconnect button right on the disconnected screen.</li><li>Carries forward always-on auto-update checks and all the Ableton-style quantized section launch, auto-connect, and Key-chain features.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Mon, 22 Jun 2026 23:27:02 -0700</pubDate>
