@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.12</title>
+      <description><![CDATA[<ul><li>New: Write the detected key straight into Pro Tools' Key Signature ruler. After detecting a song's key, click "Write key signature" and the Arranger sets the session's key signature in the Key Signature ruler itself (the "Default - C major" lane) — not just a marker. It uses Pro Tools' own Add Key Change command, only runs when you click the button, and never types while you're editing a field in Pro Tools. (Grant Pro Tools Arranger Accessibility access the first time, in System Settings ▸ Privacy & Security ▸ Accessibility.) Prefer the old behavior? The button's menu still offers "Write as marker (bar 1)," and the Arranger automatically falls back to a marker if it can't reach the ruler.</li><li>Improved: Light mode now matches Pro Tools' own light theme far more closely — the window chrome, track lanes, selection blue, and counter readouts are tuned to sit right next to Pro Tools running in its light interface. Dark mode is unchanged.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Wed, 24 Jun 2026 12:54:47 +0000</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.8.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.12.zip"
+        sparkle:edSignature="537EGAaL5FRZiNA6nIFCp6h+GC1G0elSIFS+3q2+JbE7nDmnpMzaKOj76s1gDW5fpq/VlI3yTbPlI/r1aBm+Bg=="
+        length="16606013"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.11</title>
       <description><![CDATA[<ul><li>Fixed: Renaming in Pro Tools no longer gets cut short. While the Arranger was connected, typing a name into a Pro Tools field — a track, clip, send, memory location, or I/O Setup path — could occasionally commit early and truncate it ("DANGEROUS ANALOG 2" → "DANGEROUS ANALOG"). The Arranger now detects when you're typing into a Pro Tools field and holds its background sync until you're done, so your names land exactly as you type them.</li><li>New: Pause Pro Tools Sync (⌘⌥P). A one-key hard stop for all Pro Tools activity from the Arranger — flip it on before a delicate rename or edit and the Arranger won't touch Pro Tools until you flip it back. Your choice is remembered between launches.</li><li>New: Light mode. Choose Dark, Light, or Auto under View ▸ Theme. Auto follows your Mac's appearance and switches with it; Dark stays the default, so nothing changes unless you want it to.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Tue, 24 Jun 2026 02:10:00 -0700</pubDate>
