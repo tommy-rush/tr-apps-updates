@@ -6,6 +6,19 @@
     <description>Automatic updates for TR Key — the menu-bar key + BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 2.5.0</title>
+      <description><![CDATA[<ul><li>Tempo is more accurate. Some tracks with a shuffle or half-time feel used to come out at the wrong speed — about two-thirds of the real tempo (a 90 BPM beat reading as 60, a 95 as 63). Those now lock onto the right tempo.</li><li>Sharper key on real mixes. The key now leans on the bass line to find the true root, so it stops naming a chord a fifth above the real key — a common slip on full productions. More songs land on the exact key, and almost all land in the right key family.</li><li>Smoother and more reliable while it listens. Tightened the live audio path so it stays rock-steady when you switch outputs (speakers to headphones), uses a touch less CPU, and shuts its audio listening down cleanly when you quit.</li><li>Still 100% on-device and real-time — nothing leaves your Mac.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Wed, 24 Jun 2026 08:25:52 -0700</pubDate>
+      <sparkle:version>2.5.0</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-2.5.0.zip"
+        sparkle:edSignature="2W0dRCdWIXv3v5d+oGKgcXyN+Ws48pShEW9TJaeKDQx3p5JOsEYVmv6dXZrg/RpxlO1ifXyRE3r9Pg9MQdY7AA=="
+        length="1972270"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.4.0</title>
       <description><![CDATA[<ul><li>Big accuracy upgrade. On real tracks the key now lands right far more often — the previous build could name the relative major instead of the actual minor (so an A minor track read as C major, or a song could come out a fifth off). On a set of known-key reference tracks, exact matches went from 3 in 8 to 6 in 8, and it's in the right key family on 7 of 8.</li><li>Registers a key faster — within about 3 seconds of audio, matching Mixed In Key, instead of sitting on "…" or never locking.</li><li>Still 100% on-device and real-time — nothing leaves your Mac.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Tue, 23 Jun 2026 17:04:43 -0700</pubDate>
