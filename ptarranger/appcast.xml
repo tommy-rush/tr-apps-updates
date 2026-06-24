@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.13</title>
+      <description><![CDATA[<ul><li>Fixed: Writing a key signature no longer moves your playhead. When the Arranger writes the detected key into Pro Tools' Key Signature ruler, it briefly steps the cursor to bar 1 to add the key change, then puts it back exactly where you had it. On Bars|Beats sessions that restore could quietly fail and leave the cursor parked at bar 1 — it now always returns to your original spot.</li><li>Improved: Key detection is more honest about how sure it is. The confidence reading no longer floors at a middling value for atonal or noisy material — a clean, clear key still reads high, while ambiguous audio reads genuinely low, so you can trust the number before you write it into your session.</li><li>Improved: Writing the key signature is safer. The Arranger now reads the value back before confirming Pro Tools' Add Key Change dialog (so it can never commit a wrong key), only ever cancels a positively-identified Key Change dialog, and never blind-dismisses an unrelated Pro Tools window. If anything looks off, it cleanly falls back to writing the key as a marker.</li><li>Fixed: Duplicating a section makes exactly one new section with one correctly-named marker — the last edge cases that could leave a phantom extra section are now closed, however Pro Tools places the copied marker.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Wed, 24 Jun 2026 14:11:34 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.8.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.13.zip"
+        sparkle:edSignature="CHSlVzqp94iyyYphXl6k5hJujbq/jgbdsBoJzSxYhfQFO6ZSHMWm60AjiJ3k7mi5xoZ4cpeTYKvDZgWLhfSbDA=="
+        length="16613212"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.12</title>
       <description><![CDATA[<ul><li>New: Write the detected key straight into Pro Tools' Key Signature ruler. After detecting a song's key, click "Write key signature" and the Arranger sets the session's key signature in the Key Signature ruler itself (the "Default - C major" lane) — not just a marker. It uses Pro Tools' own Add Key Change command, only runs when you click the button, and never types while you're editing a field in Pro Tools. (Grant Pro Tools Arranger Accessibility access the first time, in System Settings ▸ Privacy & Security ▸ Accessibility.) Prefer the old behavior? The button's menu still offers "Write as marker (bar 1)," and the Arranger automatically falls back to a marker if it can't reach the ruler.</li><li>Improved: Light mode now matches Pro Tools' own light theme far more closely — the window chrome, track lanes, selection blue, and counter readouts are tuned to sit right next to Pro Tools running in its light interface. Dark mode is unchanged.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Wed, 24 Jun 2026 12:54:47 +0000</pubDate>
