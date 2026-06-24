@@ -6,6 +6,19 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.10</title>
+      <description><![CDATA[<ul><li>Fixed: Hidden tracks now STAY hidden when you duplicate a section. A recent build could re-reveal tracks you had hidden in Pro Tools when copying a section — duplicating now keeps your show/hide layout exactly as you left it.</li><li>Fixed: Every toolbar and transport control — including Undo and Redo — now stays reachable at any window size. Snap the Arranger to the narrowest Pro Tools sidebar and nothing is cut off: anything that doesn't fit tucks into the "•••" menu or scrolls into view.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <pubDate>Tue, 23 Jun 2026 17:59:59 -0700</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.8.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.10.zip"
+        sparkle:edSignature="NRY55Rf3JdofT2WjMp62g1dQKAgyYXDBvQGZ9zu98Et8I1OTQomWV1hEwgPR2pfkr3hozDLa43RhrM50nfPUBg=="
+        length="16515406"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.9</title>
       <description><![CDATA[<ul><li>Fixed: Duplicating a section now makes exactly ONE new section with its own correctly-named marker — no more phantom extra sections or missing markers, however Pro Tools places the copied marker.</li><li>Fixed: Edits are fast again — moves, duplicates and deletes no longer pause to save a full backup on every single edit, so rapid editing stays snappy (a recoverable Auto-backup is still saved before a burst of edits).</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Tue, 23 Jun 2026 16:56:03 -0700</pubDate>
