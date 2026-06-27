@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>TR Key</title>
+    <title>Session Key</title>
     <link>https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml</link>
-    <description>Automatic updates for TR Key — the menu-bar key + BPM detector.</description>
+    <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.1</title>
+      <description><![CDATA[<ul><li>Live, on-device key and tempo detection straight from your Mac's audio output.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li><li>Maintenance and stability update.</li></ul>]]></description>
+      <pubDate>Fri, 26 Jun 2026 17:46:00 -0700</pubDate>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-1.0.1.zip"
+        sparkle:edSignature="V3cD0b2OI3hg1kOQh5DxM01R/5TliuC9/3cxquF9kyJLaBqIo+8QTUFhe+5crMNA1KNtG7y7fA2S0FlTsymSAA=="
+        length="2080712"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0</title>
-      <description><![CDATA[<ul><li>First Sparkle-enabled release of TR Key/BPM.</li><li>On-device key + BPM detection from any audio file.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
+      <description><![CDATA[<ul><li>First Sparkle-enabled release of Session Key.</li><li>On-device key and BPM detection from any audio file.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li></ul>]]></description>
       <pubDate>Sun, 21 Jun 2026 21:23:00 -0700</pubDate>
       <sparkle:version>1.0</sparkle:version>
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
