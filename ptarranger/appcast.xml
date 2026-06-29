@@ -7,13 +7,13 @@
     <language>en</language>
     <item>
       <title>Version 0.8.14</title>
-      <description><![CDATA[<ul>
-        <li>Works with any Pro Tools edition from 2023.3 onward (no longer Ultimate only).</li>
-        <li>Data safety: writing a Key Signature now leaves your pitched and Elastic Audio tracks untouched. Setting a key signature can never transpose your audio.</li>
-        <li>Clearer permission help: if macOS needs to grant access, the app points you to the exact Privacy and Security pane (Automation vs Accessibility) instead of a generic message.</li>
-        <li>The app now bundles its own Python runtime, so the Pro Tools bridge works on a clean Mac with no extra setup.</li>
-        <li>Update checks run automatically. You always see the update and click Install. Nothing installs silently.</li>
-        <li>Notarized Developer ID build (Capiscana, Inc.).</li>
+      <description><![CDATA[<h2>Pro Tools Arranger 0.8.14</h2>
+      <ul>
+        <li>Runs reliably on a fresh Mac, with no extra setup after you install.</li>
+        <li>Safer key-signature writes: writing a key signature no longer risks transposing your instrument tracks.</li>
+        <li>Hidden tracks stay hidden: the Arranger never reveals tracks you have hidden.</li>
+        <li>Works with any Pro Tools edition (2023.3 or later), not just Ultimate.</li>
+        <li>Security and stability improvements.</li>
       </ul>]]></description>
       <pubDate>Mon, 29 Jun 2026 17:28:43 +0000</pubDate>
       <sparkle:version>30</sparkle:version>
