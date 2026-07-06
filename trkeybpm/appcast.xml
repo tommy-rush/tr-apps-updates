@@ -6,6 +6,19 @@
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.4</title>
+      <description><![CDATA[<ul><li>Confidence-gated auto-stop: listening now stops only after the detected key holds green and stable.</li><li>Refined Settings panes and menu-bar readout.</li><li>Notarized Developer ID build (Capiscana, Inc.). Apple Silicon.</li></ul>]]></description>
+      <pubDate>Sun, 05 Jul 2026 17:00:00 -0700</pubDate>
+      <sparkle:version>247</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://license.tommy-rush.com/assets/downloads/Session-Key-1.0.4-b247.dmg"
+        sparkle:edSignature="d+vEi/RgXOFvyi7FQV9Ts6prI9NtocodnXPMwZLf4v8nrcse/cFBMIqdI8YmPDkaZFb3uaT0J/reDpuW+DMnDQ=="
+        length="10518666"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <description><![CDATA[<ul><li>Live, on-device key and tempo detection straight from your Mac's audio output.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li><li>Maintenance and stability update.</li></ul>]]></description>
       <pubDate>Fri, 26 Jun 2026 17:46:00 -0700</pubDate>
