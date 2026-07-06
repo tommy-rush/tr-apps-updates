@@ -7,15 +7,15 @@
     <language>en</language>
     <item>
       <title>Version 1.0.4</title>
-      <description><![CDATA[<ul><li>Confidence-gated auto-stop: listening now stops only after the detected key holds green and stable.</li><li>Refined Settings panes and menu-bar readout.</li><li>Notarized Developer ID build (Capiscana, Inc.). Apple Silicon.</li></ul>]]></description>
+      <description><![CDATA[<ul><li>New detection engine: trained key heads + confidence-gated green promotion (more exact keys, same never-wrong guarantee).</li><li>Confidence-gated auto-stop: listening stops only after the detected key holds green and stable.</li><li>Refined Settings panes and menu-bar readout.</li><li>Notarized Developer ID build (Capiscana, Inc.). Apple Silicon.</li></ul>]]></description>
       <pubDate>Sun, 05 Jul 2026 17:00:00 -0700</pubDate>
-      <sparkle:version>247</sparkle:version>
+      <sparkle:version>248</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://license.tommy-rush.com/assets/downloads/Session-Key-1.0.4-b247.dmg"
-        sparkle:edSignature="d+vEi/RgXOFvyi7FQV9Ts6prI9NtocodnXPMwZLf4v8nrcse/cFBMIqdI8YmPDkaZFb3uaT0J/reDpuW+DMnDQ=="
-        length="10518666"
+        url="https://license.tommy-rush.com/assets/downloads/Session-Key-1.0.4-b248.dmg"
+        sparkle:edSignature="UQVc9RHI03kSnt3Su9n5B3OjWQN1X8qN5S1OxkKGjbdRD9bVJCg9UfZAj4sVjUED2mYAKp30hRPblIfiNplRBA=="
+        length="10527979"
         type="application/octet-stream" />
     </item>
     <item>
