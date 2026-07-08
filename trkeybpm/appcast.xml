@@ -6,6 +6,19 @@
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.4</title>
+      <description><![CDATA[<ul><li>One press sends tempo and key to Ableton Live together.</li><li>Activate with one click from your email. No key to copy.</li><li>The key readout holds steadier.</li><li>Small fixes and polish.</li></ul>]]></description>
+      <pubDate>Wed, 08 Jul 2026 14:56:33 -0700</pubDate>
+      <sparkle:version>251</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/trkeybpm/TRKeyBpm-1.0.4-b251.zip"
+        sparkle:edSignature="P0fAAfNcTBpylIx6O19kGpe8LGylCu5F5Q7drgCD71ajb5ZCAlXIOMe3r2Z6Zng4dcn9Zw6bICvO1aSjwXhgCw=="
+        length="10355092"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <description><![CDATA[<ul><li>Live, on-device key and tempo detection straight from your Mac's audio output.</li><li>Notarized Developer ID build (Capiscana, Inc.).</li><li>Maintenance and stability update.</li></ul>]]></description>
       <pubDate>Fri, 26 Jun 2026 17:46:00 -0700</pubDate>
