@@ -6,6 +6,26 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.38</title>
+      <description><![CDATA[<h2>Session Arranger for Pro Tools 0.8.38</h2>
+      <ul>
+        <li><b>Marker colors stay exactly right.</b> Moving, duplicating, or repeating a section keeps every marker's real Pro Tools color, on the ruler and in the Arranger — no more markers turning gray or shifting hue after an edit.</li>
+        <li><b>Undo is safe on repeat and duplicate.</b> One ⌘Z fully reverses a repeat or duplicate with every marker restored to its exact spot, including the sections just past the edit.</li>
+        <li><b>Dark mode counter matches Pro Tools.</b> The key and tempo readout now uses Pro Tools' exact green, so it reads identically next to Pro Tools running in Dark.</li>
+        <li><b>Smoother section moves</b> and a crisper, centered app icon.</li>
+        <li>Reliability and stability improvements under the hood.</li>
+      </ul>]]></description>
+      <pubDate>Wed, 08 Jul 2026 02:09:51 -0700</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.8.38</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.38.zip"
+        sparkle:edSignature="vjiOHna3p1EHwnXlSqaV8LQjmX5or/9q6OhmVvW23DnY6yMBJLXPaf/aXHsXissyNz7yetKMr+hR08XlA08qBA=="
+        length="57023540"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.14</title>
       <description><![CDATA[<h2>Pro Tools Arranger 0.8.14</h2>
       <ul>
