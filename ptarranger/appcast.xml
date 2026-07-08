@@ -6,6 +6,24 @@
     <description>Automatic updates for Pro Tools Arranger — the Arranger lane for Pro Tools.</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.39</title>
+      <description><![CDATA[<h2>Session Arranger for Pro Tools 0.8.39</h2>
+      <ul>
+        <li><b>One clear Activate screen.</b> When your trial ends, Session Arranger now takes you straight to a single Activate screen. Enter your key and you're back to arranging in seconds.</li>
+        <li><b>Licensed to you, visibly.</b> After you activate, the app shows your name and email, so you always know this copy is yours.</li>
+        <li>Reliability and stability improvements under the hood.</li>
+      </ul>]]></description>
+      <pubDate>Wed, 08 Jul 2026 05:09:49 -0700</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>0.8.39</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://tommy-rush.github.io/tr-apps-updates/ptarranger/PTArranger-v0.8.39.zip"
+        sparkle:edSignature="ckdn36TtAAl0e+9y0ZhH9IAimRq367pkC2cOMynr3jRf3PbspYfbSYz8x9kED4JsFIzWRaigWjfPC/QvfIQjBQ=="
+        length="57054180"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.38</title>
       <description><![CDATA[<h2>Session Arranger for Pro Tools 0.8.38</h2>
       <ul>
