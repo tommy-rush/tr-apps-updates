@@ -1,21 +1,71 @@
 # TR Apps — Update Host
 
 Public Sparkle update host for Tommy Rush's standalone macOS apps.
+Served by **GitHub Pages** at the custom domain in `CNAME`:
 
-Each app has its own folder with an `appcast.xml` feed and signed `.zip` downloads,
-served via **GitHub Pages** at `https://tommy-rush.github.io/tr-apps-updates/<app>/appcast.xml`.
+```
+https://update.session.am/
+```
 
-## Apps
+## THERE IS EXACTLY ONE SESSION KEY FEED
 
-| App | Feed URL |
-|-----|----------|
-| TR Key/BPM | `https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml` |
-| PT Arranger | `https://tommy-rush.github.io/tr-apps-updates/ptarranger/appcast.xml` (reserved) |
-| TR Rack | `https://tommy-rush.github.io/tr-apps-updates/trrack/appcast.xml` (reserved) |
+```
+https://update.session.am/session-key/appcast.xml
+```
+
+That file is the only Session Key appcast in this repo. Do not add a second one.
+There used to be two (`session-key/appcast.xml` and `trkeybpm/appcast.xml`) kept in sync by a
+generator, and they drifted: one carried `github.io` enclosure URLs while the other carried
+`update.tommy-rush.com` ones. The second file and its generator are gone.
+
+| App | Feed |
+|-----|------|
+| Session Key | `https://update.session.am/session-key/appcast.xml` |
+| Session Arranger for Pro Tools | `https://update.session.am/ptarranger/appcast.xml` |
+
+## Every older build still reaches that one feed. Here is exactly how.
+
+A shipped build bakes `SUFeedURL` into `Info.plist` and it can never be changed for a copy that
+is already installed. Three different URLs are in the wild. These were read out of the shipped
+bundles, not out of documentation:
+
+| shipped builds | baked SUFeedURL |
+|---|---|
+| TR KeyBpm 2.3.0–2.5.0, Session Key 1.0, 1.0.1, 1.0.4 b251 | `https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml` |
+| Session Key b256 and later (b291, b293, …) | `https://update.tommy-rush.com/session-key/appcast.xml` |
+| Session Arranger for Pro Tools (b55) | `https://tommy-rush.github.io/tr-apps-updates/ptarranger/appcast.xml` |
+
+They resolve like this:
+
+```
+tommy-rush.github.io/tr-apps-updates/<path>
+  --301-->  update.session.am/<path>                  GitHub Pages custom-domain redirect
+
+update.tommy-rush.com/<path>
+  --301-->  update.session.am/<path>                  Cloudflare rule, tommy-rush.com zone
+
+update.session.am/trkeybpm/appcast.xml
+  --301-->  update.session.am/session-key/appcast.xml Cloudflare rule, session.am zone
+```
+
+Sparkle follows 301s, so every generation lands on the one feed.
+
+### The two Cloudflare rules are load-bearing. Deleting either orphans installed copies.
+
+- zone `tommy-rush.com` (`377bcb59cc3d02be7d246f6061a1606b`), ruleset
+  `8591e4b133e541bca7f7aaae02da16ec`, rule `8fc3a2c4b0084c06b9ded93c7bf39518`
+  — `update.tommy-rush.com` → `update.session.am`, path preserved.
+- zone `session.am` (`1b16a73bc8e5badc35ba938ee807ac2d`), phase
+  `http_request_dynamic_redirect`
+  — `update.session.am/trkeybpm/appcast.xml` → `/session-key/appcast.xml`.
+
+`update.tommy-rush.com` must also keep its proxied Cloudflare DNS record. The redirect runs at
+the edge before any origin fetch, so it works even though GitHub Pages no longer answers for
+that hostname.
 
 ## Signing
 
-All downloads are EdDSA (ed25519) signed with the Sparkle key whose **public** half is:
+All downloads are EdDSA (ed25519) signed. Public half:
 
 ```
 vnk2NfEHVQaozUBcYIf2pbmtXtKYoA51/QeJSjxu+sg=
@@ -25,52 +75,39 @@ The private key lives in the macOS login Keychain on Tommy's MBP and is backed u
 1Password ("Sparkle EdDSA Key - TR Apps") + `~/.tr-apps-sparkle/`. Apps embed the public
 key as `SUPublicEDKey` and **refuse any update whose signature does not verify**.
 
-## Session Key has TWO feed files. One is generated. Read this before editing either.
+Verify an enclosure signature without the private key:
 
-`session-key/appcast.xml` is **canonical** — it is the only Session Key feed a human edits.
-
-`trkeybpm/appcast.xml` is **GENERATED** — never hand-edit it. It exists because every build
-up to and including b251, which is the entire install base, bakes the OLD feed path:
-
-```
-b251 Info.plist SUFeedURL = https://tommy-rush.github.io/tr-apps-updates/trkeybpm/appcast.xml
+```sh
+python3 verify-ed.py "$PUBKEY_B64" "$SIG_B64" path/to/App.zip
 ```
 
-(verified at runtime — the app itself prints `updater feed: …/trkeybpm/appcast.xml`). That URL
-301s to `update.tommy-rush.com/trkeybpm/appcast.xml`, which is a **separate file** from
-`session-key/appcast.xml`. A release published only into `session-key/appcast.xml` therefore
-reaches **zero** installed copies. The SUFeedURL moved to `/session-key/` at b256, so once a
-user takes ONE update off the trkeybpm feed they migrate to the canonical feed permanently.
-
-Keep them in sync with the generator, which also gates the feed:
-
+```python
+# verify-ed.py
+import base64, subprocess, sys, os, tempfile
+pub = base64.b64decode(sys.argv[1]); sig = base64.b64decode(sys.argv[2])
+spki = bytes.fromhex('302a300506032b6570032100') + pub   # Ed25519 SubjectPublicKeyInfo
+b = base64.b64encode(spki).decode()
+pem = "-----BEGIN PUBLIC KEY-----\n" + "\n".join(b[i:i+64] for i in range(0, len(b), 64)) + "\n-----END PUBLIC KEY-----\n"
+with tempfile.TemporaryDirectory() as d:
+    p = os.path.join(d, 'k.pem'); open(p, 'w').write(pem)
+    s = os.path.join(d, 's.bin'); open(s, 'wb').write(sig)
+    sys.exit(subprocess.run(['openssl', 'pkeyutl', '-verify', '-pubin', '-inkey', p,
+                             '-rawin', '-in', sys.argv[3], '-sigfile', s]).returncode)
 ```
-tools/mirror-appcast.sh                 # regenerate the mirror
-tools/mirror-appcast.sh --check         # verify; exit 1 on drift  (run before every push)
-tools/mirror-appcast.sh --from-head     # generate from HEAD, ignoring staged edits
-tools/mirror-appcast.sh --verify-sigs   # also EdDSA-verify EVERY enclosure (fail-closed)
-```
 
-Fail-closed gates it applies to the canonical feed before mirroring: well-formed XML with no
-DTD/ENTITY; no placeholder `pubDate` (`REPLACE-AT-PUSH`, empty, `TBD`/`TODO`/…) and every
-`<item>` carries one; every `<enclosure>` https with a non-empty `sparkle:edSignature` and
-`length` — parsed as XML, not grepped, so `url = 'http://…'` cannot slip through. With
-`--verify-sigs`, a missing artifact, a length mismatch, or a failed signature is a FAILURE,
-never a skip.
+Run it against a known-bad signature too. A verifier that has never returned failure has not
+been shown to discriminate.
 
-Its placeholder check is a **placeholder detector, not an approval gate**: an item staged with
-a real date looks exactly like an approved one. Approval is the release gate (owner tests and
-approves the copy), not this script.
+## Releasing a new version
 
-Artifacts (zip/dmg) are committed **once**, into `session-key/` — both feeds already point
-their enclosures at that directory, so only the XML is mirrored.
+1. Build, notarize, staple the `.app`.
+2. `ditto -c -k --keepParent "App.app" App-X.Y.zip` (or a notarized and stapled `.dmg`).
+3. `sign_update <artifact>` → take the `sparkle:edSignature` and `length`.
+4. Add one `<item>` to that app's appcast, newest first. Never truncate the older items;
+   they are the downgrade and history path.
+5. Commit the artifact and the xml together, push.
 
-## Releasing a new version (per app)
+Enclosure URLs in new items must be `https://update.session.am/...`.
 
-1. Build + notarize + staple the `.app`.
-2. `ditto -c -k --keepParent "App.app" App-X.Y.zip` (or build a notarized+stapled `.dmg`).
-3. `sign_update <artifact>` → copy the `sparkle:edSignature` + `length`.
-4. Add a new `<item>` to that app's `appcast.xml` (newest first). For Session Key that means
-   `session-key/appcast.xml` and **only** that file.
-5. Session Key only: `tools/mirror-appcast.sh` then `tools/mirror-appcast.sh --check`.
-6. Commit the artifact + both xml files, push.
+Owner approval is the release gate. A staged item with a real `pubDate` looks exactly like an
+approved one, so no script can tell them apart.

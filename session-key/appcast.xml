@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Session Key</title>
-    <link>https://update.tommy-rush.com/session-key/appcast.xml</link>
+    <link>https://update.session.am/session-key/appcast.xml</link>
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
@@ -13,7 +13,7 @@
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://update.tommy-rush.com/session-key/SessionKey-1.0.4-b251.zip"
+        url="https://update.session.am/session-key/SessionKey-1.0.4-b251.zip"
         sparkle:edSignature="P0fAAfNcTBpylIx6O19kGpe8LGylCu5F5Q7drgCD71ajb5ZCAlXIOMe3r2Z6Zng4dcn9Zw6bICvO1aSjwXhgCw=="
         length="10355092"
         type="application/octet-stream" />
@@ -26,7 +26,7 @@
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://update.tommy-rush.com/session-key/SessionKey-1.0.1.zip"
+        url="https://update.session.am/session-key/SessionKey-1.0.1.zip"
         sparkle:edSignature="V3cD0b2OI3hg1kOQh5DxM01R/5TliuC9/3cxquF9kyJLaBqIo+8QTUFhe+5crMNA1KNtG7y7fA2S0FlTsymSAA=="
         length="2080712"
         type="application/octet-stream" />
@@ -39,7 +39,7 @@
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://update.tommy-rush.com/session-key/SessionKey-1.0.zip"
+        url="https://update.session.am/session-key/SessionKey-1.0.zip"
         sparkle:edSignature="KjtSwEjJAWPTiiuGLfDxOB7p+aIreAq+U92KJyiPLjaD9E+k6bJa4BOlEYZm06HPAsEq3dOJc72LO5wmDiv3AQ=="
         length="1924571"
         type="application/octet-stream" />
