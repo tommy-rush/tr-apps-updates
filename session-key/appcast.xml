@@ -6,6 +6,19 @@
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.4 (build 293)</title>
+      <description><![CDATA[<ul><li>Update to build 293.</li><li>Handles m4a files with damaged endings.</li><li>The ring turns red while listening.</li><li>The panel opens in the right place.</li><li>Small fixes and polish.</li></ul>]]></description>
+      <pubDate>Wed, 29 Jul 2026 00:24:55 -0700</pubDate>
+      <sparkle:version>293</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://update.session.am/session-key/SessionKey-1.0.4-b293.zip"
+        sparkle:edSignature="C+18kxD2egJa8jSKmysZsVN80uoa+qWJd6OfB+4X/hL3tjuVQA05d7BZ9j7/iCCQa66gNvdZnpNrM16d4SaSDQ=="
+        length="10563474"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.4</title>
       <description><![CDATA[<ul><li>One press sends tempo and key to Ableton Live together.</li><li>Activate with one click from your email. No key to copy.</li><li>The key readout holds steadier.</li><li>Small fixes and polish.</li></ul>]]></description>
       <pubDate>Wed, 08 Jul 2026 14:56:33 -0700</pubDate>
