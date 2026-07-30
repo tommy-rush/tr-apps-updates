@@ -6,6 +6,19 @@
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.4 (build 298)</title>
+      <description><![CDATA[<ul><li>Update to build 298.</li><li>The key and the tempo now sit exactly 4 points apart in the menu bar, for every key and every tempo.</li><li>The panel stays centered under the icon while you use it.</li><li>Closes the one case where a song could settle on a wrong key after an unlucky relaunch.</li><li>Small fixes and polish.</li></ul>]]></description>
+      <pubDate>Thu, 30 Jul 2026 14:06:54 -0700</pubDate>
+      <sparkle:version>298</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://update.session.am/session-key/SessionKey-1.0.4-b298.zip"
+        sparkle:edSignature="1h/unKYvNThvgyz3IaU+UNHZGg0xhkp/AVi05WjPT2fy8dRr0VvA/7noZcpWn5BUwCvkX+2dkjPT5KelmffWDw=="
+        length="10563674"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.4 (build 293)</title>
       <description><![CDATA[<ul><li>Update to build 293.</li><li>Handles m4a files with damaged endings.</li><li>The ring turns red while listening.</li><li>The panel opens in the right place.</li><li>Small fixes and polish.</li></ul>]]></description>
       <pubDate>Wed, 29 Jul 2026 00:24:55 -0700</pubDate>
