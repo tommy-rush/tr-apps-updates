@@ -5,7 +5,22 @@
     <link>https://update.session.am/session-key/appcast.xml</link>
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
-    <item>
+    
+<item>
+  <title>Version 1.0.4 (build 301)</title>
+  <description><![CDATA[<ul><li>Update to build 301.</li><li>New: cents readout. Drop a file and the readout can show how far it sits from your tuning reference, like +14&#162; next to the key. Off unless you turn it on in Settings; the menu bar stays exactly as clean as before when it is off.</li><li>New: settable tuning reference. 432 to 450 Hz presets plus a custom field; offsets are measured against the reference you set. Default stays 440.</li><li>First launch shows the license agreement once.</li><li>The color-blind shape marks now ship off; the plain ring is the out-of-box look. Turn shapes on any time in Settings under Readout.</li><li>New: a My Account button in Settings opens your account page.</li><li>Settings is reorganized: Listening, a new Readout tab, and License &amp; About.</li></ul>]]></description>
+  <pubDate>Sat, 01 Aug 2026 01:08:10 -0700</pubDate>
+  <sparkle:version>301</sparkle:version>
+  <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.4-b301.zip"
+    sparkle:edSignature="/KWbU0YqxyGJQ93E7eISU8blR3UESr1R/l/6hqyY2renwogv3Deh/jFTk/iNtNENBgfA50I0ZOU9kAjv4h04DQ=="
+    length="10610318"
+    type="application/octet-stream" />
+</item>
+
+<item>
       <title>Version 1.0.4 (build 298)</title>
       <description><![CDATA[<ul><li>Update to build 298.</li><li>The key and the tempo now sit exactly 4 points apart in the menu bar, for every key and every tempo.</li><li>The panel stays centered under the icon while you use it.</li><li>Closes the one case where a song could settle on a wrong key after an unlucky relaunch.</li><li>Small fixes and polish.</li></ul>]]></description>
       <pubDate>Thu, 30 Jul 2026 14:06:54 -0700</pubDate>
