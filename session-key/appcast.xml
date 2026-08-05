@@ -7,6 +7,20 @@
     <language>en</language>
     
 <item>
+  <title>Version 1.0.4 (build 309)</title>
+  <description><![CDATA[<ul><li>Tighter menu bar panel.</li><li>Nothing is ever written to your clipboard.</li></ul>]]></description>
+  <pubDate>Wed, 05 Aug 2026 05:00:47 -0700</pubDate>
+  <sparkle:version>309</sparkle:version>
+  <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.4-b309.zip"
+    sparkle:edSignature="gwXYPwAana96PCxllXKV4n8wQH4nn3uYQy/73B6SIzU+l0ZNBSLidcpJlN5zypiDP+foppg4Q78nbR3xlBBzAA=="
+    length="10666232"
+    type="application/octet-stream" />
+</item>
+
+<item>
   <title>Version 1.0.4 (build 302)</title>
   <description><![CDATA[<ul><li>Update to build 302.</li><li>Send to Pro Tools sets the key more reliably. A key only send used to fail with a Key didn't verify message.</li><li>When Send to DAW is available, it sends the reading you are looking at, including after you stop listening. It used to refuse a stopped reading and tell you to wait for a lock. If the reading had not locked yet, the confirmation says it went as a strong guess.</li><li>The send confirmation is smaller and sits tight under the menu bar icon. The old one was wide enough to cover a DAW transport.</li><li>Ring colors now mean the app is listening or showing a fresh file result. Stop listening and the ring drops its color at once, so you can see the stop registered.</li><li>The idle ring is a clean ring again instead of a cluster of blobs.</li><li>A locked key still names its runner up, and names both keys, like "C#m or E".</li><li>The dropdown shows listening time again, with a new Listening time switch under Readout, and it lost its dead space.</li><li>The menu bar readout is even on both sides at every key and every tempo.</li><li>Settings scrolls all the way down, so the cents readout and the color blind shape marks are reachable, and every explanation reads whole.</li><li>A dropped file's tempo can only turn green when the file is long enough to hold four beats of the tempo it detected. This is a change to confidence only; it does not change which tempo the app detects.</li><li>When no sound is reaching the app while it listens, it now retries once and then says so, and points you at the Listen to setting. It used to sit on "Listening, no audio" for as long as you left it.</li><li>The analyzing and result bubbles stay under the menu bar icon as the readout grows. They used to drift to the left of it.</li><li>With "Stop once the key locks in" on, listening ends the moment the reading is final. The panel no longer says a key is locked while it is still listening.</li><li>The app notices the moment the music stops. It says it is waiting for audio, and the listening time stops counting until the music comes back.</li><li>New sound wakes it straight away. The idle check setting is gone, because waking is always immediate now.</li><li>If you are offline for a long stretch, the app now renews itself quietly while you have a connection, and asks you to connect once before it ever becomes a problem.</li><li>The license agreement is updated and shown once more. You confirm you are at least 16, and that if you are under the age of majority where you live, a parent or legal guardian has agreed on your behalf.</li></ul>]]></description>
   <pubDate>Sun, 02 Aug 2026 03:13:17 -0700</pubDate>
