@@ -7,6 +7,20 @@
     <language>en</language>
     
 <item>
+  <title>Version 1.0.5 (build 313)</title>
+  <description><![CDATA[Bug fixes and improvements]]></description>
+  <pubDate>Thu, 06 Aug 2026 14:15:00 -0700</pubDate>
+  <sparkle:version>313</sparkle:version>
+  <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.5-b313.zip"
+    sparkle:edSignature="unEHNqhZXRpK3FpCaaqmdQAsOXs8DMeQWKgpQkLccKHeFCygv/T5G02dPvun7roAqpszWoo5VWI2vDcidi5NBA=="
+    length="10677339"
+    type="application/octet-stream" />
+</item>
+
+<item>
   <title>Version 1.0.4 (build 309)</title>
   <description><![CDATA[<ul><li>Tighter menu bar panel.</li><li>Nothing is ever written to your clipboard.</li></ul>]]></description>
   <pubDate>Wed, 05 Aug 2026 05:00:47 -0700</pubDate>
