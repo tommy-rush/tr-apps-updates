@@ -7,6 +7,20 @@
     <language>en</language>
     
 <item>
+  <title>Version 1.0.6 (build 318)</title>
+  <description><![CDATA[<ul><li>Cubase: Session Key now sends tempo to Cubase.</li><li>Logic Pro: fixed the key not being set on some Macs, where the tempo went through and the key silently did not.</li><li>Pro Tools: key and tempo both send reliably.</li></ul>]]></description>
+  <pubDate>Sat, 08 Aug 2026 01:57:59 -0700</pubDate>
+  <sparkle:version>318</sparkle:version>
+  <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.6-b318.zip"
+    sparkle:edSignature="NwYB97CFTWjF6J8hIWoD89RIy6eeUATelL7y1Onyq08+5vF58fCsrZD3mJQJPlablMdBHuwTyskP22Zic9zwBw=="
+    length="10770690"
+    type="application/octet-stream" />
+</item>
+
+<item>
   <title>Version 1.0.5 (build 313)</title>
   <description><![CDATA[Bug fixes and improvements]]></description>
   <pubDate>Thu, 06 Aug 2026 14:15:00 -0700</pubDate>
