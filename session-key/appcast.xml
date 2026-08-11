@@ -7,6 +7,20 @@
     <language>en</language>
 
 <item>
+  <title>Version 1.0.6 (build 332)</title>
+  <description><![CDATA[Bug fixes and improvements]]></description>
+  <pubDate>Tue, 11 Aug 2026 05:19:53 -0700</pubDate>
+  <sparkle:version>332</sparkle:version>
+  <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.6-b332.zip"
+    sparkle:edSignature="s1uITB01utrCNTACijGKAYlrP4aKiOoRJVCkR9D3oOX69U02c0QKIG6Ceho+t0LR4hcO0/JquUFE803+7RMyCQ=="
+    length="10801755"
+    type="application/octet-stream" />
+</item>
+
+<item>
   <title>Version 1.0.6 (build 331)</title>
   <description><![CDATA[Bug fixes and improvements]]></description>
   <pubDate>Tue, 11 Aug 2026 05:15:13 -0700</pubDate>
