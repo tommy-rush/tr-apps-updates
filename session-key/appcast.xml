@@ -12,7 +12,7 @@
   <pubDate>Tue, 11 Aug 2026 05:19:53 -0700</pubDate>
   <sparkle:version>332</sparkle:version>
   <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
   <enclosure
     url="https://update.session.am/session-key/SessionKey-1.0.6-b332.zip"
     sparkle:edSignature="s1uITB01utrCNTACijGKAYlrP4aKiOoRJVCkR9D3oOX69U02c0QKIG6Ceho+t0LR4hcO0/JquUFE803+7RMyCQ=="
@@ -26,7 +26,7 @@
   <pubDate>Tue, 11 Aug 2026 05:15:13 -0700</pubDate>
   <sparkle:version>331</sparkle:version>
   <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
   <enclosure
     url="https://update.session.am/session-key/SessionKey-1.0.6-b331.zip"
     sparkle:edSignature="rPLBi/s4o0WaRrzhSiRpoomdsupCjsWciagQR4tyQVcqkz7ItEdnYgQ5OWt0zsWLI+5avEWgtOQQwDBSiD39AQ=="
