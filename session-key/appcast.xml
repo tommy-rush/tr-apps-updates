@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Session Key</title>
     <link>https://update.session.am/session-key/appcast.xml</link>
     <description>Automatic updates for Session Key, the menu-bar key and BPM detector.</description>
     <language>en</language>
+
+<item>
+  <title>Version 1.0.6 (build 334)</title>
+  <description><![CDATA[Fixes Session Key quitting on launch for some Macs running macOS 14.]]></description>
+  <pubDate>Wed, 12 Aug 2026 22:26:26 -0700</pubDate>
+  <sparkle:version>334</sparkle:version>
+  <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.6-b334.zip"
+    sparkle:edSignature="co8PBNCELkfFGkUICxomL1JuFDEiDMUMCOCTNVlLn3AsjOhXmSYdLmSFH9tBiJyYmBCiI0XQ3rAsS/aLxM/nBg=="
+    length="10814079"
+    type="application/octet-stream" />
+</item>
 
 <item>
   <title>Version 1.0.6 (build 332)</title>
