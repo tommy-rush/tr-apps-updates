@@ -8,6 +8,21 @@
     <language>en</language>
 
 <item>
+  <title>Version 1.0.6 (build 352)</title>
+  <description><![CDATA[<ul><li>Send now reaches Bitwig Studio, Studio Pro and Reason, alongside Pro Tools, Logic Pro, Ableton Live, FL Studio and Cubase.</li><li>New: send the key straight to Auto-Tune. One shortcut sets the key and scale in Auto-Tune for you.</li><li>Key and tempo land even when a plug-in window is sitting in front of your DAW.</li><li>A send only ever reaches the DAW you picked.</li><li>Reason sets your tempo exactly, decimals included.</li></ul>]]></description>
+  <pubDate>Tue, 25 Aug 2026 08:04:38 -0700</pubDate>
+  <sparkle:version>352</sparkle:version>
+  <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/SessionKey-1.0.6-b352.zip"
+    sparkle:edSignature="V6u95A2bJk5T1AxFfWVjj8AEsFxhMlRpX/l5Pn7LOsOa2u3iqCYK6+42tFONdY8NvEnL3hCiMSWeYKjQ0EXPCw=="
+    length="11269714"
+    type="application/octet-stream" />
+</item>
+
+
+<item>
   <title>Version 1.0.6 (build 334)</title>
   <description><![CDATA[Fixes Session Key quitting on launch for some Macs running macOS 14.]]></description>
   <pubDate>Wed, 12 Aug 2026 22:26:26 -0700</pubDate>
