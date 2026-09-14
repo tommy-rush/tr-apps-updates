@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Session Shortcut Trainer Updates</title>
+    <link>https://session.am/shortcut-trainer/</link>
+    <description>Updates for Session Shortcut Trainer for Mac</description>
+    <language>en</language>
+    <item>
+      <title>Session Shortcut Trainer 1.1</title>
+      <pubDate>Mon, 14 Sep 2026 14:52:01 +0000</pubDate>
+      <sparkle:version>20260914.3</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description>&lt;p&gt;A native Mac workspace for focused DAW shortcut practice.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Open your cartridge collection and choose a practice deck.&lt;/li&gt;&lt;li&gt;See the physical keys you press, with clear feedback after a miss.&lt;/li&gt;&lt;li&gt;Review supported personal key assignments for your purchased packs.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://update.tommy-rush.com/daw-shortcut-trainer/Session-Shortcut-Trainer-20260914.3.zip" length="26259419" type="application/octet-stream" sparkle:edSignature="rV+M9fENcxsMCV8FEUUOdl7m415f02itKasjl+BilJH0IDqPuuU7f2L3UJ2Sl/7n34RCxhs4hvpze729AvmOBw=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: Qc3EvO/3ypHjFxNBAHq61jPmRkaKfVWF82eUNpBP3LMouWDeT5XiGcnfT0lTw4V04qVlnh5vLwwz5AOyvD0/Dg==
+length: 1687
+-->
