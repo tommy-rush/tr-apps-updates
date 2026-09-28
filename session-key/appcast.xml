@@ -8,6 +8,30 @@
     <language>en</language>
 
 <item>
+  <title>Version 1.1 (build 370.919.47.5)</title>
+  <description><![CDATA[<ul>
+<li><b>Island, the new&nbsp;look.</b></li>
+<li><b>Locked lights up in the key’s&nbsp;color.</b></li>
+<li><b>More accurate tempo, even on short&nbsp;loops.</b></li>
+<li><b>Tempo to&nbsp;Reaper.</b></li>
+<li><b>Mic Mode.</b> ⌃⌥⌘M</li>
+<li><small>NEW IN BETA</small><br><b>Analyze&nbsp;Selection.</b> ⌃⌥⌘L</li>
+<li><small>NEW IN BETA</small><br><b>Send to All&nbsp;DAWs.</b> ⌃⌥⌘D</li>
+<li><small>NEW IN BETA</small><br><b>Decimal tempos, like&nbsp;140.82.</b></li>
+<li><small>NEW IN BETA</small><br><b>Your last 30&nbsp;readings.</b></li>
+</ul>]]></description>
+  <pubDate>Mon, 28 Sep 2026 07:21:58 -0700</pubDate>
+  <sparkle:version>370.919.47.5</sparkle:version>
+  <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+  <enclosure
+    url="https://update.session.am/session-key/Session-Key-1.1-b370.919.47.5.zip"
+    sparkle:edSignature="U48uwsRW7x1XLCR/gro+Mq6iH7tAoT8/EGR6gyQDv9Rkx94geA6xf4uNsDN7iKgJb+IsrYIGMYwABCzAfLXcAw=="
+    length="67208293"
+    type="application/octet-stream" />
+</item>
+
+    <item>
   <title>Version 1.0.6 (build 370.919.47.2)</title>
   <description><![CDATA[<ul>
 <li><b>Island, the new&nbsp;look.</b></li>
